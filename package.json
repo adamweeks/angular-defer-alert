@@ -1,0 +1,19 @@
+{
+  "name": "angular-defer-alert",
+  "version": "0.0.1",
+  "description": "Angular service to promisify $window alerts, confirms and prompts.",
+  "main": "src/defer-alert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "promise",
+    "alert",
+    "window",
+    "confirm",
+    "prompt"
+  ],
+  "author": "Adam Weeks",
+  "license": "MIT"
+}

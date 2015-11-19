@@ -42,6 +42,8 @@
         /**
          * Opens a prompt alert dialog. Resolves with value entered.
          * Rejects with a cancel press.
+         * @param message
+         * @param defaultValue
          */
         function openPrompt(message, defaultValue) {
             return $q(function(resolve, reject) {

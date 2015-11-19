@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "url": "https://github.com/adamweeks/angular-defer-alert",
+    "type": "git"
+  },
   "keywords": [
     "angular",
     "promise",

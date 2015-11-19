@@ -9,7 +9,7 @@ Well then, this is the service for you!
 
 ### Confirms
 Confirmations are great to insert in a process. They resolve successfully with an "OK" click. They are rejected when a user clicks "Cancel".
-```
+```javascript
 MyDonutService
   .getDonuts(12)
   .then(function(donutsFetched) {
@@ -28,7 +28,7 @@ MyDonutService
 
 ### Prompts
 Prompts ask a user for input before continuing. They resolve successfully with an "OK" click and provide the entered value. They are rejected when a user clicks "Cancel".
-```
+```javascript
 var promptMesage = 'How many donuts do you want to eat?';
 var defaultValue = '12';
 DeferAlertService.openPrompt(promptMessage, defaultValue)
@@ -52,7 +52,7 @@ DeferAlertService.openPrompt(promptMessage, defaultValue)
 
 ### Alerts
 Since alerts don't really require a promise, we immediately resolve them, making for a very boring demo.
-```
+```javascript
 MyAwesomeService
   .doThing()
   .then(function(textToAlert) {
